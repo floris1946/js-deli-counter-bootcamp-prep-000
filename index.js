@@ -17,11 +17,6 @@ function nowServing(katzDeliLine) {
   return `Currently serving ${current_person}.`;
 }
 
-takeANumber(katzDeli, `floris`);
-console.log(nowServing(katzDeli));
-console.log(katzDeli.length);
-
-/*
 // returns defined string with numbered katzDeliLine
 function currentLine(katzDeliLine) {
   if (katzDeliLine.length === 0) {
