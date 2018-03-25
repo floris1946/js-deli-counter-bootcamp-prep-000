@@ -7,10 +7,6 @@ function takeANumber(katzDeliLine, name) {
   return `Welcome, ${name}. You are number ${number} in line.`;
 }
 
-//takeANumber(["Steven", "Blake", "Avi"], `floris`);
-//console.log(katzDeli);
-
-/*
 // return first person in line and delete from katzDeliLine
 function nowServing(katzDeliLine) {
   katzDeliLine.shift()
