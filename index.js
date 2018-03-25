@@ -14,7 +14,7 @@ function nowServing(katzDeliLine) {
   }
   var current_person = katzDeliLine.shift();
   //delete katzDeliLine[0];
-  return `Currently serving Steven.`;
+  return `Currently serving ${current_person}.`;
   
 }
 
