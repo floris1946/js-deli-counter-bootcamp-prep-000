@@ -7,7 +7,7 @@ function takeANumber(katzDeliLine, name) {
   return `Welcome, ${name}. You are number ${number} in line.`;
 }
 
-console.log(takeANumber(["Steven", "Blake", "Avi"], `floris`))
+console.log(katzDeli)
 
 
 /*
