@@ -12,7 +12,7 @@ function nowServing(katzDeliLine) {
   if (katzDeliLine.length === 0) {
     return `There is nobody waiting to be served!`;
   }
-  katzDeliLine.shift()
+  katzDeliLine.shift();
 }
 
 takeANumber(katzDeli, `floris`);
