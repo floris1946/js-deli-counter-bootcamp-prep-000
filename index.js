@@ -18,6 +18,7 @@ function nowServing(katzDeliLine) {
 takeANumber(katzDeli, `floris`);
 console.log(nowServing(katzDeli));
 console.log(katzDeli.length);
+console.log(katzDeli.length === 0)
 /*
 // returns defined string with numbered katzDeliLine
 function currentLine(katzDeliLine) {
