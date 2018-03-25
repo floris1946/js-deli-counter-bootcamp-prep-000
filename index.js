@@ -13,7 +13,7 @@ function nowServing(katzDeliLine) {
     return `There is nobody waiting to be served!`;
   }
   var current_person = katzDeliLine[0];
-  delete katzDeliLine[current_person];
+  delete katzDeliLine[0];
   return `Currently serving Steven.`;
   
 }
