@@ -3,6 +3,7 @@ var katzDeli = [];
 // takes in: current line, name; returns: position in line
 function takeANumber(katzDeliLine, name) {
   const number = katzDeliLine.length + 1;
+  katzDeli.push(name);
   return `Welcome, ${name}. You are number ${number} in line.`;
 }
 
