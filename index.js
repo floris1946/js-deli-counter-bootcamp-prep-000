@@ -15,6 +15,7 @@ function nowServing(katzDeliLine) {
   katzDeliLine.shift()
 }
 
+takeANumber(katzDeli, `floris`);
 console.log(nowServing(katzDeliLine))
 
 /*
