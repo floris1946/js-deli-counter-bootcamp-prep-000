@@ -12,6 +12,7 @@ function nowServing(katzDeliLine) {
   katzDeliLine.shift()
 }
 
+/*
 // returns defined string with numbered katzDeliLine
 function currentLine(katzDeliLine) {
   if (katzDeliLine.length === 0) {
