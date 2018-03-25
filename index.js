@@ -14,6 +14,7 @@ function nowServing(katzDeliLine) {
   }
   var current_person = katzDeliLine[0];
   delete katzDeliLine[current_person];
+  return `
   
 }
 
